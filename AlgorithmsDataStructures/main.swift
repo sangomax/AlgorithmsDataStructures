@@ -17,42 +17,42 @@ import Foundation
 
 //print(quickSort([2,4,6,8,4,4,654,76,87,12,3,65,1,09,9,2,5], <))
 
-print("\nSTACK\n")
-var s = Stack<Int>()
-
-s.push(item: 2)
-s.push(item: 4)
-print(s.pop()!)
-s.push(item: 45)
-s.push(item: 7)
-print(s.peek()!)
-s.push(item: 12)
-print(s.pop()!)
-s.push(item: 89)
-
-for i in s {
-    print(i)
-}
-print(s.description)
-
-print("\nQUEUE\n")
-
-var q = Queue<Int>()
-
-q.enqueue(item: 2)
-q.enqueue(item: 4)
-print(q.dequeue()!)
-q.enqueue(item: 45)
-q.enqueue(item: 7)
-print(q.peek()!)
-q.enqueue(item: 12)
-print(q.dequeue()!)
-q.enqueue(item: 89)
-
-for i in q {
-    print(i)
-}
-print(q.description)
+//print("\nSTACK\n")
+//var s = Stack<Int>()
+//
+//s.push(item: 2)
+//s.push(item: 4)
+//print(s.pop()!)
+//s.push(item: 45)
+//s.push(item: 7)
+//print(s.peek()!)
+//s.push(item: 12)
+//print(s.pop()!)
+//s.push(item: 89)
+//
+//for i in s {
+//    print(i)
+//}
+//print(s.description)
+//
+//print("\nQUEUE\n")
+//
+//var q = Queue<Int>()
+//
+//q.enqueue(item: 2)
+//q.enqueue(item: 4)
+//print(q.dequeue()!)
+//q.enqueue(item: 45)
+//q.enqueue(item: 7)
+//print(q.peek()!)
+//q.enqueue(item: 12)
+//print(q.dequeue()!)
+//q.enqueue(item: 89)
+//
+//for i in q {
+//    print(i)
+//}
+//print(q.description)
 
 //
 //func search(_ word: String, _ text: String) {
@@ -71,3 +71,8 @@ print(q.description)
 //
 //
 //search("NEEDLE", "INAHAYSTACKNEEDLEINA")
+
+
+
+//whoIsMyParent()
+diameter()
