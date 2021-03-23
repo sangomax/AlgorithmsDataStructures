@@ -54,7 +54,7 @@ import Foundation
 //}
 //print(q.description)
 
-//
+
 //func search(_ word: String, _ text: String) {
 //    var index: [Int] = []
 //    for letter in 0...(text.count - word.count) {
@@ -66,13 +66,43 @@ import Foundation
 //            }
 //        }
 //    }
-//    
+//
+//}
+
+//func findWord(_ targetWord: String, _ word: String) {
+// var i = 0
+// var j = 0
+// var firstLettersCount = 0
+// for index in 0..<word.count {
+//  if (targetWord[0] != targetWord[index]) { break }
+//  firstLettersCount += 1
+// }
+//// let firstLettersCounttemp = targetWord.filter { Character(targetWord[0]) == $0 }.count
+// while (i < word.count) {
+//  if j == targetWord.count { break }
+//  if targetWord[j] == word[i] {
+//   j += 1
+//   i += 1
+//  } else {
+//   if j != firstLettersCount || word[i] != targetWord[0] {
+//    j = 0
+//   }
+//   i += 1
+//  }
+// }
+// print((j > 0) ? i - j : -1)
 //}
 //
 //
-//search("NEEDLE", "INAHAYSTACKNEEDLEINA")
+//print(findWord("EEABC", "EEEABC"))
+//print(findWord("WORD", "WWWWWWWWWWORD"))
+//print(findWord("EEABC", "EEABC"))
+//print(findWord("EEEABC", "EEEABC"))
+//print(findWord("EEABC", "EEEABC"))
+//print(findWord("EEABC", "EEEABC"))
 
 
 
 //whoIsMyParent()
-diameter()
+//diameter()
+LCA()

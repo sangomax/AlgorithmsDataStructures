@@ -18,6 +18,7 @@
 		1486A1632601F53C000B53CF /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A1622601F53C000B53CF /* Queue.swift */; };
 		1486A1692603D288000B53CF /* WhoIsMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A1682603D288000B53CF /* WhoIsMyParent.swift */; };
 		1486A16C26044096000B53CF /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A16B26044096000B53CF /* Diameter.swift */; };
+		1486A1722609B564000B53CF /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A1712609B563000B53CF /* LowestCommonAncestor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 		1486A1662603D1F4000B53CF /* TreeTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTraversal.swift; sourceTree = "<group>"; };
 		1486A1682603D288000B53CF /* WhoIsMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoIsMyParent.swift; sourceTree = "<group>"; };
 		1486A16B26044096000B53CF /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
+		1486A1712609B563000B53CF /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		143575C925F83BAD00FA778B /* Assignments */ = {
 			isa = PBXGroup;
 			children = (
+				1486A1702609B4FA000B53CF /* LCA */,
 				1486A16E2604B039000B53CF /* TreeQuiz */,
 				143575CA25F83BE700FA778B /* RecursiveAssignment.swift */,
 				1442D9EE25FF2E8700100F11 /* QuickSort.swift */,
@@ -164,6 +167,14 @@
 				1486A16B26044096000B53CF /* Diameter.swift */,
 			);
 			path = TreeQuiz;
+			sourceTree = "<group>";
+		};
+		1486A1702609B4FA000B53CF /* LCA */ = {
+			isa = PBXGroup;
+			children = (
+				1486A1712609B563000B53CF /* LowestCommonAncestor.swift */,
+			);
+			path = LCA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				1486A1632601F53C000B53CF /* Queue.swift in Sources */,
 				1486A1692603D288000B53CF /* WhoIsMyParent.swift in Sources */,
 				145B1A4F25FB179D00F1E4BD /* String+DPStringTool.swift in Sources */,
+				1486A1722609B564000B53CF /* LowestCommonAncestor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ func diameter() {
     var allEdges = [[[Int]]](repeating: [[]], count: (n / 2 + 2) * 2 - 1)
     
     
-    for _ in 0..<(n-1) {
+    for _ in 0..<n {
         
         let nodeInfo = readLine()!.split(separator: " ").map { String($0) }
         
@@ -24,7 +24,7 @@ func diameter() {
         var node = 0
         var distance = 0
         
-        for i in 1..<nodeInfo.count - 1 {
+        for i in 1..<nodeInfo.count {
             if ( i % 2 == 1) {
                 node = Int(nodeInfo[i])!
             } else {
@@ -38,7 +38,7 @@ func diameter() {
         }
         
     }
-    
+    print(allEdges)
     var sum = 0
     print(dfs(allEdges,node: 1, arrival: 0, sum))
 }
