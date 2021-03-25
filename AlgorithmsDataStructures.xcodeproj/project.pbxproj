@@ -19,6 +19,9 @@
 		1486A1692603D288000B53CF /* WhoIsMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A1682603D288000B53CF /* WhoIsMyParent.swift */; };
 		1486A16C26044096000B53CF /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A16B26044096000B53CF /* Diameter.swift */; };
 		1486A1722609B564000B53CF /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A1712609B563000B53CF /* LowestCommonAncestor.swift */; };
+		1486A17D260C2DA0000B53CF /* LCA(linear).swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A17B260C2DA0000B53CF /* LCA(linear).swift */; };
+		1486A17E260C2DA0000B53CF /* TreeAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A17C260C2DA0000B53CF /* TreeAssignment.swift */; };
+		1486A184260C2E84000B53CF /* GraphAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A183260C2E84000B53CF /* GraphAssignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +55,16 @@
 		1486A1682603D288000B53CF /* WhoIsMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoIsMyParent.swift; sourceTree = "<group>"; };
 		1486A16B26044096000B53CF /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		1486A1712609B563000B53CF /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
+		1486A175260C2C9F000B53CF /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		1486A176260C2C9F000B53CF /* AdjacencyMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyMatrix.swift; sourceTree = "<group>"; };
+		1486A177260C2C9F000B53CF /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		1486A178260C2C9F000B53CF /* ConnectedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedComponents.swift; sourceTree = "<group>"; };
+		1486A179260C2C9F000B53CF /* bipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bipartite.swift; sourceTree = "<group>"; };
+		1486A17A260C2C9F000B53CF /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		1486A17B260C2DA0000B53CF /* LCA(linear).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCA(linear).swift"; sourceTree = "<group>"; };
+		1486A17C260C2DA0000B53CF /* TreeAssignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeAssignment.swift; sourceTree = "<group>"; };
+		1486A181260C2DB9000B53CF /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		1486A183260C2E84000B53CF /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +101,10 @@
 				1486A15C2601E47B000B53CF /* Bag, Stack, Queue */,
 				143575C325F824FA00FA778B /* Utils */,
 				1442D9F325FF2F1500100F11 /* Searching */,
+				1486A180260C2DB9000B53CF /* FloodFill */,
 				1442D9F125FF2F0600100F11 /* Sorting */,
 				1486A1652603D1F4000B53CF /* Tree */,
+				1486A174260C2C9F000B53CF /* Examples */,
 				143575BE25F8213700FA778B /* Recursion */,
 				143575B625F8212A00FA778B /* main.swift */,
 			);
@@ -118,6 +133,7 @@
 		143575C925F83BAD00FA778B /* Assignments */ = {
 			isa = PBXGroup;
 			children = (
+				1486A182260C2E48000B53CF /* GraphAssignment */,
 				1486A1702609B4FA000B53CF /* LCA */,
 				1486A16E2604B039000B53CF /* TreeQuiz */,
 				143575CA25F83BE700FA778B /* RecursiveAssignment.swift */,
@@ -155,6 +171,8 @@
 		1486A1652603D1F4000B53CF /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				1486A17B260C2DA0000B53CF /* LCA(linear).swift */,
+				1486A17C260C2DA0000B53CF /* TreeAssignment.swift */,
 				1486A1662603D1F4000B53CF /* TreeTraversal.swift */,
 			);
 			path = Tree;
@@ -175,6 +193,36 @@
 				1486A1712609B563000B53CF /* LowestCommonAncestor.swift */,
 			);
 			path = LCA;
+			sourceTree = "<group>";
+		};
+		1486A174260C2C9F000B53CF /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				1486A175260C2C9F000B53CF /* AdjacencyList.swift */,
+				1486A176260C2C9F000B53CF /* AdjacencyMatrix.swift */,
+				1486A177260C2C9F000B53CF /* DFS.swift */,
+				1486A178260C2C9F000B53CF /* ConnectedComponents.swift */,
+				1486A179260C2C9F000B53CF /* bipartite.swift */,
+				1486A17A260C2C9F000B53CF /* BFS.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		1486A180260C2DB9000B53CF /* FloodFill */ = {
+			isa = PBXGroup;
+			children = (
+				1486A181260C2DB9000B53CF /* Town.swift */,
+			);
+			name = FloodFill;
+			path = AlgorithmsDataStructures/FloodFill;
+			sourceTree = SOURCE_ROOT;
+		};
+		1486A182260C2E48000B53CF /* GraphAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				1486A183260C2E84000B53CF /* GraphAssignment.swift */,
+			);
+			path = GraphAssignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,12 +287,15 @@
 				1486A16C26044096000B53CF /* Diameter.swift in Sources */,
 				143575C025F8219600FA778B /* Recursion.swift in Sources */,
 				1442D9EF25FF2E8700100F11 /* QuickSort.swift in Sources */,
+				1486A17D260C2DA0000B53CF /* LCA(linear).swift in Sources */,
 				143575B725F8212A00FA778B /* main.swift in Sources */,
 				145B1A5425FB180900F1E4BD /* BackTracking.swift in Sources */,
 				145B1A5325FB180900F1E4BD /* ExhaustiveSearch.swift in Sources */,
 				1486A1632601F53C000B53CF /* Queue.swift in Sources */,
+				1486A17E260C2DA0000B53CF /* TreeAssignment.swift in Sources */,
 				1486A1692603D288000B53CF /* WhoIsMyParent.swift in Sources */,
 				145B1A4F25FB179D00F1E4BD /* String+DPStringTool.swift in Sources */,
+				1486A184260C2E84000B53CF /* GraphAssignment.swift in Sources */,
 				1486A1722609B564000B53CF /* LowestCommonAncestor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

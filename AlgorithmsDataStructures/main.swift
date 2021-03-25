@@ -105,4 +105,6 @@ import Foundation
 
 //whoIsMyParent()
 //diameter()
-LCA()
+//LCA()
+//CyclicPermutation()
+RepeatingSequence()
