@@ -22,6 +22,7 @@
 		1486A17D260C2DA0000B53CF /* LCA(linear).swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A17B260C2DA0000B53CF /* LCA(linear).swift */; };
 		1486A17E260C2DA0000B53CF /* TreeAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A17C260C2DA0000B53CF /* TreeAssignment.swift */; };
 		1486A184260C2E84000B53CF /* GraphAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A183260C2E84000B53CF /* GraphAssignment.swift */; };
+		1486A189260D0D45000B53CF /* GraphAssignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1486A188260D0D45000B53CF /* GraphAssignment2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		1486A17C260C2DA0000B53CF /* TreeAssignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeAssignment.swift; sourceTree = "<group>"; };
 		1486A181260C2DB9000B53CF /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		1486A183260C2E84000B53CF /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
+		1486A188260D0D45000B53CF /* GraphAssignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		143575C925F83BAD00FA778B /* Assignments */ = {
 			isa = PBXGroup;
 			children = (
+				1486A187260D0D25000B53CF /* GraphAssignment2 */,
 				1486A182260C2E48000B53CF /* GraphAssignment */,
 				1486A1702609B4FA000B53CF /* LCA */,
 				1486A16E2604B039000B53CF /* TreeQuiz */,
@@ -225,6 +228,14 @@
 			path = GraphAssignment;
 			sourceTree = "<group>";
 		};
+		1486A187260D0D25000B53CF /* GraphAssignment2 */ = {
+			isa = PBXGroup;
+			children = (
+				1486A188260D0D45000B53CF /* GraphAssignment2.swift */,
+			);
+			path = GraphAssignment2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,6 +307,7 @@
 				1486A1692603D288000B53CF /* WhoIsMyParent.swift in Sources */,
 				145B1A4F25FB179D00F1E4BD /* String+DPStringTool.swift in Sources */,
 				1486A184260C2E84000B53CF /* GraphAssignment.swift in Sources */,
+				1486A189260D0D45000B53CF /* GraphAssignment2.swift in Sources */,
 				1486A1722609B564000B53CF /* LowestCommonAncestor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

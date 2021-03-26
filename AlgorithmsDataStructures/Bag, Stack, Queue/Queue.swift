@@ -56,7 +56,7 @@ public final class Queue<E> : Sequence {
     /// verify if this queue is empty?
     /// - Returns: true or false
     public func isEmpty() -> Bool {
-        return first != nil
+        return first == nil
     }
     
     public func makeIterator() -> QueueIterator<E> {
