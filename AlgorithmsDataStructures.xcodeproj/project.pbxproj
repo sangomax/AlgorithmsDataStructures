@@ -67,6 +67,60 @@
 		1486A181260C2DB9000B53CF /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		1486A183260C2E84000B53CF /* GraphAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment.swift; sourceTree = "<group>"; };
 		1486A188260D0D45000B53CF /* GraphAssignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphAssignment2.swift; sourceTree = "<group>"; };
+		1486A18E2616620E000B53CF /* sushi.21.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.21.out; sourceTree = "<group>"; };
+		1486A18F2616620E000B53CF /* sushi.20.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.20.out; sourceTree = "<group>"; };
+		1486A1902616620E000B53CF /* sushi.19.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.19.in; sourceTree = "<group>"; };
+		1486A1912616620E000B53CF /* sushi.22.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.22.out; sourceTree = "<group>"; };
+		1486A1922616620E000B53CF /* sushi.23.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.23.out; sourceTree = "<group>"; };
+		1486A1932616620E000B53CF /* sushi.18.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.18.in; sourceTree = "<group>"; };
+		1486A1942616620E000B53CF /* sushisamp.2.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.2.out; sourceTree = "<group>"; };
+		1486A1952616620E000B53CF /* sushi.24.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.24.out; sourceTree = "<group>"; };
+		1486A1962616620E000B53CF /* sushi.18.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.18.out; sourceTree = "<group>"; };
+		1486A1972616620E000B53CF /* sushi.19.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.19.out; sourceTree = "<group>"; };
+		1486A1982616620E000B53CF /* sushi.25.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.25.out; sourceTree = "<group>"; };
+		1486A1992616620E000B53CF /* sushisamp.1.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.1.out; sourceTree = "<group>"; };
+		1486A19A2616620E000B53CF /* sushi.23.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.23.in; sourceTree = "<group>"; };
+		1486A19B2616620E000B53CF /* sushi.17.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.17.in; sourceTree = "<group>"; };
+		1486A19C2616620E000B53CF /* sushi.5.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.5.in; sourceTree = "<group>"; };
+		1486A19D2616620E000B53CF /* sushi.5.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.5.out; sourceTree = "<group>"; };
+		1486A19E2616620E000B53CF /* sushisamp.2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.2.in; sourceTree = "<group>"; };
+		1486A19F2616620E000B53CF /* sushi.4.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.4.out; sourceTree = "<group>"; };
+		1486A1A02616620E000B53CF /* sushi.13.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.13.in; sourceTree = "<group>"; };
+		1486A1A12616620E000B53CF /* sushi.1.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.1.in; sourceTree = "<group>"; };
+		1486A1A22616620E000B53CF /* sushi.6.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.6.out; sourceTree = "<group>"; };
+		1486A1A32616620E000B53CF /* sushi.7.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.7.out; sourceTree = "<group>"; };
+		1486A1A42616620E000B53CF /* sushi.12.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.12.in; sourceTree = "<group>"; };
+		1486A1A52616620E000B53CF /* sushi.3.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.3.out; sourceTree = "<group>"; };
+		1486A1A62616620E000B53CF /* sushi.2.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.2.out; sourceTree = "<group>"; };
+		1486A1A72616620E000B53CF /* sushi.22.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.22.in; sourceTree = "<group>"; };
+		1486A1A82616620E000B53CF /* sushi.16.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.16.in; sourceTree = "<group>"; };
+		1486A1A92616620E000B53CF /* sushi.4.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.4.in; sourceTree = "<group>"; };
+		1486A1AA2616620E000B53CF /* sushi.1.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.1.out; sourceTree = "<group>"; };
+		1486A1AB2616620E000B53CF /* sushi.11.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.11.in; sourceTree = "<group>"; };
+		1486A1AC2616620E000B53CF /* sushi.25.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.25.in; sourceTree = "<group>"; };
+		1486A1AD2616620E000B53CF /* sushi.3.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.3.in; sourceTree = "<group>"; };
+		1486A1AE2616620E000B53CF /* sushi.21.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.21.in; sourceTree = "<group>"; };
+		1486A1AF2616620E000B53CF /* sushi.15.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.15.in; sourceTree = "<group>"; };
+		1486A1B02616620E000B53CF /* sushi.7.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.7.in; sourceTree = "<group>"; };
+		1486A1B12616620E000B53CF /* sushi.20.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.20.in; sourceTree = "<group>"; };
+		1486A1B22616620E000B53CF /* sushi.14.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.14.in; sourceTree = "<group>"; };
+		1486A1B32616620E000B53CF /* sushi.6.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.6.in; sourceTree = "<group>"; };
+		1486A1B42616620E000B53CF /* sushisamp.1.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushisamp.1.in; sourceTree = "<group>"; };
+		1486A1B52616620E000B53CF /* sushi.10.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.10.in; sourceTree = "<group>"; };
+		1486A1B62616620E000B53CF /* sushi.24.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.24.in; sourceTree = "<group>"; };
+		1486A1B72616620E000B53CF /* sushi.9.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.9.out; sourceTree = "<group>"; };
+		1486A1B82616620E000B53CF /* sushi.2.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.2.in; sourceTree = "<group>"; };
+		1486A1B92616620E000B53CF /* sushi.8.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.8.out; sourceTree = "<group>"; };
+		1486A1BA2616620E000B53CF /* sushi.9.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.9.in; sourceTree = "<group>"; };
+		1486A1BB2616620E000B53CF /* sushi.14.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.14.out; sourceTree = "<group>"; };
+		1486A1BC2616620E000B53CF /* sushi.15.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.15.out; sourceTree = "<group>"; };
+		1486A1BD2616620E000B53CF /* sushi.17.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.17.out; sourceTree = "<group>"; };
+		1486A1BE2616620E000B53CF /* sushi.16.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.16.out; sourceTree = "<group>"; };
+		1486A1BF2616620E000B53CF /* sushi.12.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.12.out; sourceTree = "<group>"; };
+		1486A1C02616620E000B53CF /* sushi.13.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.13.out; sourceTree = "<group>"; };
+		1486A1C12616620E000B53CF /* sushi.8.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.8.in; sourceTree = "<group>"; };
+		1486A1C22616620E000B53CF /* sushi.11.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.11.out; sourceTree = "<group>"; };
+		1486A1C32616620E000B53CF /* sushi.10.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = sushi.10.out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,8 +286,70 @@
 			isa = PBXGroup;
 			children = (
 				1486A188260D0D45000B53CF /* GraphAssignment2.swift */,
+				1486A18D2616620E000B53CF /* TestCases */,
 			);
 			path = GraphAssignment2;
+			sourceTree = "<group>";
+		};
+		1486A18D2616620E000B53CF /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				1486A18E2616620E000B53CF /* sushi.21.out */,
+				1486A18F2616620E000B53CF /* sushi.20.out */,
+				1486A1902616620E000B53CF /* sushi.19.in */,
+				1486A1912616620E000B53CF /* sushi.22.out */,
+				1486A1922616620E000B53CF /* sushi.23.out */,
+				1486A1932616620E000B53CF /* sushi.18.in */,
+				1486A1942616620E000B53CF /* sushisamp.2.out */,
+				1486A1952616620E000B53CF /* sushi.24.out */,
+				1486A1962616620E000B53CF /* sushi.18.out */,
+				1486A1972616620E000B53CF /* sushi.19.out */,
+				1486A1982616620E000B53CF /* sushi.25.out */,
+				1486A1992616620E000B53CF /* sushisamp.1.out */,
+				1486A19A2616620E000B53CF /* sushi.23.in */,
+				1486A19B2616620E000B53CF /* sushi.17.in */,
+				1486A19C2616620E000B53CF /* sushi.5.in */,
+				1486A19D2616620E000B53CF /* sushi.5.out */,
+				1486A19E2616620E000B53CF /* sushisamp.2.in */,
+				1486A19F2616620E000B53CF /* sushi.4.out */,
+				1486A1A02616620E000B53CF /* sushi.13.in */,
+				1486A1A12616620E000B53CF /* sushi.1.in */,
+				1486A1A22616620E000B53CF /* sushi.6.out */,
+				1486A1A32616620E000B53CF /* sushi.7.out */,
+				1486A1A42616620E000B53CF /* sushi.12.in */,
+				1486A1A52616620E000B53CF /* sushi.3.out */,
+				1486A1A62616620E000B53CF /* sushi.2.out */,
+				1486A1A72616620E000B53CF /* sushi.22.in */,
+				1486A1A82616620E000B53CF /* sushi.16.in */,
+				1486A1A92616620E000B53CF /* sushi.4.in */,
+				1486A1AA2616620E000B53CF /* sushi.1.out */,
+				1486A1AB2616620E000B53CF /* sushi.11.in */,
+				1486A1AC2616620E000B53CF /* sushi.25.in */,
+				1486A1AD2616620E000B53CF /* sushi.3.in */,
+				1486A1AE2616620E000B53CF /* sushi.21.in */,
+				1486A1AF2616620E000B53CF /* sushi.15.in */,
+				1486A1B02616620E000B53CF /* sushi.7.in */,
+				1486A1B12616620E000B53CF /* sushi.20.in */,
+				1486A1B22616620E000B53CF /* sushi.14.in */,
+				1486A1B32616620E000B53CF /* sushi.6.in */,
+				1486A1B42616620E000B53CF /* sushisamp.1.in */,
+				1486A1B52616620E000B53CF /* sushi.10.in */,
+				1486A1B62616620E000B53CF /* sushi.24.in */,
+				1486A1B72616620E000B53CF /* sushi.9.out */,
+				1486A1B82616620E000B53CF /* sushi.2.in */,
+				1486A1B92616620E000B53CF /* sushi.8.out */,
+				1486A1BA2616620E000B53CF /* sushi.9.in */,
+				1486A1BB2616620E000B53CF /* sushi.14.out */,
+				1486A1BC2616620E000B53CF /* sushi.15.out */,
+				1486A1BD2616620E000B53CF /* sushi.17.out */,
+				1486A1BE2616620E000B53CF /* sushi.16.out */,
+				1486A1BF2616620E000B53CF /* sushi.12.out */,
+				1486A1C02616620E000B53CF /* sushi.13.out */,
+				1486A1C12616620E000B53CF /* sushi.8.in */,
+				1486A1C22616620E000B53CF /* sushi.11.out */,
+				1486A1C32616620E000B53CF /* sushi.10.out */,
+			);
+			path = TestCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
