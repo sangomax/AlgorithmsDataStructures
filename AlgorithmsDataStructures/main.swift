@@ -108,44 +108,44 @@ import Foundation
 //LCA()
 //CyclicPermutation()
 //RepeatingSequence()
+//
+//let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+//for i in 1...25 {
+//
+//    let fileURLIn = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/GraphAssignment2/TestCases/sushi.\(i).in", relativeTo: directoryURL)
+//
+//    let fileURLOut = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/GraphAssignment2/TestCases/sushi.\(i).out", relativeTo: directoryURL)
+//
+//    var input = [String.SubSequence]()
+//    var result = ""
+//    do {
+//        // Get the saved data
+//        let savedDataIn = try Data(contentsOf: fileURLIn)
+//        let savedDataOut = try Data(contentsOf: fileURLOut)
+//        // Convert the data back into a string
+//        if let savedString = String(data: savedDataIn, encoding: .utf8) {
+//            input = savedString.split(separator: "\n")
+//
+//        }
+//        if let savedString = String(data: savedDataOut, encoding: .utf8) {
+//            result = String(savedString.split(separator: "\n")[0])
+//
+//        }
+//    } catch {
+//        // Catch any errors
+//        print("Unable to read the file")
+//    }
+//
+//    let distance = SushiRestaurantReviews(input)
+//
+//    if Int(result)! == distance {
+//        print("test \(i) - pass")
+//    } else {
+//        print("test \(i) - wrong")
+//    }
+//}
+//
+//
 
-let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-for i in 1...25 {
-    if i == 22  {
-        continue
-    }
-var i = 22
-    let fileURLIn = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/GraphAssignment2/TestCases/sushi.\(i).in", relativeTo: directoryURL)
-    
-    let fileURLOut = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/GraphAssignment2/TestCases/sushi.\(i).out", relativeTo: directoryURL)
-    
-    var input = [String.SubSequence]()
-    var result = ""
-    do {
-        // Get the saved data
-        let savedDataIn = try Data(contentsOf: fileURLIn)
-        let savedDataOut = try Data(contentsOf: fileURLOut)
-        // Convert the data back into a string
-        if let savedString = String(data: savedDataIn, encoding: .utf8) {
-            input = savedString.split(separator: "\n")
-            
-        }
-        if let savedString = String(data: savedDataOut, encoding: .utf8) {
-            result = String(savedString.split(separator: "\n")[0])
-            
-        }
-    } catch {
-        // Catch any errors
-        print("Unable to read the file")
-    }
-    
-    let distance = SushiRestaurantReviews(input)
-    
-    if Int(result)! == distance {
-        print("test \(i) - pass")
-    } else {
-        print("test \(i) - wrong")
-    }
-}
-
-
+//tomateFarm()
+bridges()
