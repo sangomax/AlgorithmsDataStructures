@@ -151,4 +151,58 @@ import Foundation
 //bridges()
 
 //canFinish(2, [[0,1]])
-print(findOrder(4, [[1,0],[2,0],[3,1],[3,2]]))
+//print(findOrder(4, [[1,0],[2,0],[3,1],[3,2]]))
+
+
+
+
+//
+//func longestConsecutive(_ nums: [Int]) -> Int {
+//    
+//    var count = 0
+//    var i = 1
+//    
+//    var t = UF(nums.count + 1)
+//    
+//    if nums.count > 1 {
+//    
+//        while nums.count != count {
+//            print("\(nums[count] + 1) == \((nums[i]))")
+//            print("\(nums[count] - 1) == \((nums[i]))")
+//            print("\(nums[count]) == \((nums[i]))")
+//            if (nums[count] + 1) == nums[i] || (nums[count] - 1) == nums[i] || nums[count] == nums[i] {
+//                if !t.connected(count, count + 1) {
+//                    t.union(count, count + 1)
+//                }
+//                count += 1
+//                i = count + 1
+//            } else {
+//                count += 1
+//                i = 0
+//            }
+//            
+//        }
+//        
+//    } else {
+//        
+//        return 1
+//        
+//    }
+//    
+//    var longestSequence = 1
+//    
+//    for j in 0..<t.count {
+//        if t.sizeRoot(j) > longestSequence {
+//            longestSequence = t.sizeRoot(j)
+//        }
+//    }
+//    
+//    return longestSequence
+//        
+//}
+
+//print(findCircleNum([[1,0,0],[0,1,0],[0,0,1]]))
+
+//print(findRedundantConnection([[1,2], [2,3], [3,4], [1,4], [1,5]]))
+
+//print(longestConsecutive([100,4,200,1,3,2]))
