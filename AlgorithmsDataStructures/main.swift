@@ -206,3 +206,13 @@ import Foundation
 //print(findRedundantConnection([[1,2], [2,3], [3,4], [1,4], [1,5]]))
 
 //print(longestConsecutive([100,4,200,1,3,2]))
+
+// print(twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]]))
+//print(twoCitySchedCost([[515,563],[451,713],[537,709],[343,819],[855,779],[457,60],[650,359],[631,42]]))
+
+//print(leastInterval(["A","B","A"], 2))
+//print(canCompleteCircuit([1,2,3,4,5],[3,4,5,1,2]))
+
+//print(canCompleteCircuit([5,1,2,3,4],[4,4,1,5,1]))
+
+print(partitionLabels("ababcbacadefegdehijhklij"))
