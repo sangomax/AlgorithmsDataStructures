@@ -210,9 +210,66 @@ import Foundation
 // print(twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]]))
 //print(twoCitySchedCost([[515,563],[451,713],[537,709],[343,819],[855,779],[457,60],[650,359],[631,42]]))
 
-print(leastInterval(["A","A","A","B","B","B", "C","C","C", "D", "D", "E"], 2))
+//print(leastInterval(["A","A","A","B","B","B", "C","C","C", "D", "D", "E"], 2))
 //print(canCompleteCircuit([1,2,3,4,5],[3,4,5,1,2]))
 
 //print(canCompleteCircuit([5,1,2,3,4],[4,4,1,5,1]))
 
 //print(partitionLabels("ababcbacadefegdehijhklij"))
+
+//TimeMachine()
+
+//
+//
+var countPass = 0
+var countWrong = 0
+let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+for i in 1...50 {
+    
+//    if i != 33 && i != 36 && i != 39 && i != 40 && i != 44 && i != 45 && i != 33 && i != 49 {
+//        continue
+//    }
+
+    let fileURLIn = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/MCF/mcf/mcf.\(i).in", relativeTo: directoryURL)
+
+    let fileURLOut = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/MCF/mcf/mcf.\(i).out", relativeTo: directoryURL)
+
+    var input = [String.SubSequence]()
+    var result = ""
+    do {
+        // Get the saved data
+        let savedDataIn = try Data(contentsOf: fileURLIn)
+        let savedDataOut = try Data(contentsOf: fileURLOut)
+        // Convert the data back into a string
+        if let savedString = String(data: savedDataIn, encoding: .utf8) {
+            input = savedString.split(separator: "\n")
+
+        }
+        if let savedString = String(data: savedDataOut, encoding: .utf8) {
+            result = String(savedString.split(separator: "\n")[0])
+
+        }
+    } catch {
+        // Catch any errors
+        print("Unable to read the file")
+    }
+
+    let days = startMCF(input, String(result))
+    
+    if Int(result)! == days {
+        print("test \(i) - pass - \(days)")
+        countPass += 1
+    } else {
+        print("test \(i) - wrong - \(days), correct - \(result)")
+        countWrong += 1
+    }
+    
+    
+    
+}
+
+print("Pass Test: \(countPass) - Wrong Test: \(countWrong)")
+
+
+
+
