@@ -225,7 +225,7 @@ var countPass = 0
 var countWrong = 0
 let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
 for i in 1...50 {
-    
+//    var i = 50
 //    if i != 33 && i != 36 && i != 39 && i != 40 && i != 44 && i != 45 && i != 33 && i != 49 {
 //        continue
 //    }
@@ -254,7 +254,7 @@ for i in 1...50 {
         print("Unable to read the file")
     }
 
-    let days = startMCF(input, String(result))
+    let days = startMCF(input)
     
     if Int(result)! == days {
         print("test \(i) - pass - \(days)")
