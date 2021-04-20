@@ -221,55 +221,66 @@ import Foundation
 
 //
 //
-var countPass = 0
-var countWrong = 0
-let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-for i in 1...50 {
-//    var i = 50
-//    if i != 33 && i != 36 && i != 39 && i != 40 && i != 44 && i != 45 && i != 33 && i != 49 {
-//        continue
+//var countPass = 0
+//var countWrong = 0
+//let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+//for i in 1...50 {
+////    var i = 50
+////    if i != 33 && i != 36 && i != 39 && i != 40 && i != 44 && i != 45 && i != 33 && i != 49 {
+////        continue
+////    }
+//
+//    let fileURLIn = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/MCF/mcf/mcf.\(i).in", relativeTo: directoryURL)
+//
+//    let fileURLOut = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/MCF/mcf/mcf.\(i).out", relativeTo: directoryURL)
+//
+//    var input = [String.SubSequence]()
+//    var result = ""
+//    do {
+//        // Get the saved data
+//        let savedDataIn = try Data(contentsOf: fileURLIn)
+//        let savedDataOut = try Data(contentsOf: fileURLOut)
+//        // Convert the data back into a string
+//        if let savedString = String(data: savedDataIn, encoding: .utf8) {
+//            input = savedString.split(separator: "\n")
+//
+//        }
+//        if let savedString = String(data: savedDataOut, encoding: .utf8) {
+//            result = String(savedString.split(separator: "\n")[0])
+//
+//        }
+//    } catch {
+//        // Catch any errors
+//        print("Unable to read the file")
 //    }
+//
+//    let days = startMCF(input)
+//
+//    if Int(result)! == days {
+//        print("test \(i) - pass - \(days)")
+//        countPass += 1
+//    } else {
+//        print("test \(i) - wrong - \(days), correct - \(result)")
+//        countWrong += 1
+//    }
+//
+//
+//
+//}
+//
+//print("Pass Test: \(countPass) - Wrong Test: \(countWrong)")
+//
 
-    let fileURLIn = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/MCF/mcf/mcf.\(i).in", relativeTo: directoryURL)
+//networkDelayTime([[2,1,1],[2,3,1],[3,4,1]],4,2)
 
-    let fileURLOut = URL(fileURLWithPath: "/Users/adrianogaiotto/Documents/WMAD/ClassFiles/Swift/AlgorithmsDataStructures/AlgorithmsDataStructures/Assignments/MCF/mcf/mcf.\(i).out", relativeTo: directoryURL)
+print(findCheapestPrice(5, [[0,1,1],[0,2,5],[1,2,1],[2,3,1],[3,4,1]], 0, 4, 2))
 
-    var input = [String.SubSequence]()
-    var result = ""
-    do {
-        // Get the saved data
-        let savedDataIn = try Data(contentsOf: fileURLIn)
-        let savedDataOut = try Data(contentsOf: fileURLOut)
-        // Convert the data back into a string
-        if let savedString = String(data: savedDataIn, encoding: .utf8) {
-            input = savedString.split(separator: "\n")
+//print(findTheCity(4, [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], 4))
+//
+//10
+//[[3,4,4],[2,5,6],[4,7,10],[9,6,5],[7,4,4],[6,2,10],[6,8,6],[7,9,4],[1,5,4],[1,0,4],[9,7,3],[7,0,5],[6,5,8],[1,7,6],[4,0,9],[5,9,1],[8,7,3],[1,2,6],[4,1,5],[5,2,4],[1,9,1],[7,8,10],[0,4,2],[7,2,8]]
+//6
+//0
+//7
 
-        }
-        if let savedString = String(data: savedDataOut, encoding: .utf8) {
-            result = String(savedString.split(separator: "\n")[0])
-
-        }
-    } catch {
-        // Catch any errors
-        print("Unable to read the file")
-    }
-
-    let days = startMCF(input)
     
-    if Int(result)! == days {
-        print("test \(i) - pass - \(days)")
-        countPass += 1
-    } else {
-        print("test \(i) - wrong - \(days), correct - \(result)")
-        countWrong += 1
-    }
-    
-    
-    
-}
-
-print("Pass Test: \(countPass) - Wrong Test: \(countWrong)")
-
-
-
-
